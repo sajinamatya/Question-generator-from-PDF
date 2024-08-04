@@ -8,8 +8,6 @@ def user_interface():
     st.info("Chatbot app implement with the help of lanchain and openai LLM")
 
 
-
-
 def get_user_info():
     """ This function creates the user input field UI with the help of streamlit, collect the user name, phone number and email
         , perform validation check and store the data in their respective variable. 

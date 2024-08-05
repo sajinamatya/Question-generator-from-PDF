@@ -37,7 +37,7 @@ def extract_text_chunks(text):
 
 
 def get_vector_store(text_chunks):
-    """This function performs text embedding as model understand numeric values only and FAISS is used for the vector store local."""
+    """This function performs text embedding as model understand numeric values only and the  FAISS is used for the vector store local."""
     embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
     vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
     vector_store.save_local("faiss_index")

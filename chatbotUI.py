@@ -3,7 +3,6 @@ import re
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -165,5 +164,5 @@ def main():
         user_prompt(user_question)
 
 
-if __name__ == "__main__":
-    main()
+
+main()

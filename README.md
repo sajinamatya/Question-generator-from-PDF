@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # Chatbot implemented by Langchain and Gemini llm
@@ -7,3 +8,6 @@ Chatbot UI
 Chatbot working 
 ![image](https://github.com/user-attachments/assets/c053f2fc-03ae-4922-b1c2-cd1d4acf4f23)
 
+=======
+# Question-generator-from-PDF
+>>>>>>> 13e2b48c51484c7d63876976031c8e35addb42c6
